@@ -1,5 +1,5 @@
 # sunrise_hue
-A service for turning on and off lights based on sunrise/sunset times
+A service for turning on and off Philips Hue lights based on sunrise/sunset times
 
 ## Attribution
 
