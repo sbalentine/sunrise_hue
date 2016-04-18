@@ -31,10 +31,10 @@ while true
 	now = Time.now
 	sunset = Time.parse SETTINGS["times"]["sunset"]
 	if sunrise_soon?
-		change_state(true)
+		change_state(false)
 	end
 	if sunset_soon?
-		change_state(false)
+		change_state(true)
 	end
 	sleep 60
 end
