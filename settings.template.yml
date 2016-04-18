@@ -1,7 +1,14 @@
+---
 coordinates:
   latitude: 40.75805
   longitude: 73.97941
-hue_username: your_username
+hue:
+  username: your_username
+  ip: 10.0.0.15
+  light_ids:
+    - 1
+    - 2
+    - 3
 times:
   sunrise: will_calculate
   sunset: will_calculate
